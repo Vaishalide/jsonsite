@@ -1,7 +1,7 @@
 [
   {
     "name": "Rarestudy",
-    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Physics_wallah_logo.jpg/640px-Physics_wallah_logo.jpg",
+    "logoUrl": "https://raw.githubusercontent.com/YourUser/YourRepo/main/logos/rarestudy.png",
     "baseUrl": "https://rarestudy.site",
     "cookies": [
       {
@@ -9,6 +9,8 @@
         "value": "success",
         "domain": ".rarestudy.site",
         "path": "/",
+        "secure":,
+        "httpOnly":
       }
     ],
     "replacements": [
