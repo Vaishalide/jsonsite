@@ -1,0 +1,60 @@
+[
+  {
+    "name": "Rarestudy",
+    "logoUrl": "https://raw.githubusercontent.com/YourUser/YourRepo/main/logos/rarestudy.png",
+    "baseUrl": "https://rarestudy.site",
+    "cookies": [
+      {
+        "name": "next-login",
+        "value": "success",
+        "domain": ".rarestudy.site",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false
+      }
+    ],
+    "replacements": [
+      {
+        "find": "rarestudy.site",
+        "replace": "pwthor"
+      },
+      {
+        "find": "Rarestudy",
+        "replace": "PwThor"
+      }
+    ]
+  },
+  {
+    "name": "ExampleSite",
+    "logoUrl": "https://raw.githubusercontent.com/YourUser/YourRepo/main/logos/examplesite.png",
+    "baseUrl": "https://examplesite.com",
+    "cookies": [
+      {
+        "name": "sessionid",
+        "value": "abcdef123456",
+        "domain": ".examplesite.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true
+      },
+      {
+        "name": "user-lang",
+        "value": "en",
+        "domain": "examplesite.com",
+        "path": "/",
+        "secure": false,
+        "httpOnly": false
+      }
+    ],
+    "replacements": [
+      {
+        "find": "ExampleSite",
+        "replace": "MyDemoSite"
+      },
+      {
+        "find": "© 2025 Example Corp",
+        "replace": "© 2025 Demo Corp"
+      }
+    ]
+  }
+]
