@@ -9,8 +9,8 @@
         "value": "success",
         "domain": ".rarestudy.site",
         "path": "/",
-        "secure":,
-        "httpOnly":
+        "secure": "",
+        "httpOnly": "",
       }
     ],
     "replacements": [
